@@ -1,13 +1,12 @@
-import React, { Component } from 'react'
+import React, { useState } from 'react';
 
-class Header extends Component {
-    render() {
-        return (
-            <div>
-                
-            </div>
-        )
-    }
-}
-
-export default Header
+const Header = (props) => {
+  
+    return (
+      <div>
+         <h1>this is header</h1>
+      </div>
+    );
+  }
+  
+  export default Header;
